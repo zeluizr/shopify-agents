@@ -1,0 +1,12 @@
+{
+	"name": "shopify-agents",
+	"displayName": "Shopify Agents",
+	"description": "Cinco subagentes para Shopify y Shopify Plus (exploración, revisión previa al deploy, QA, arquitectura de integraciones y documentación) más el servidor MCP @shopify/dev-mcp con la telemetría apagada: documentación, esquemas GraphQL y validación de Liquid sin salir del editor.",
+	"version": "0.1.0",
+	"author": { "name": "José Luiz Rodrigues", "url": "https://github.com/zeluizr" },
+	"homepage": "https://github.com/zeluizr/shopify-agents",
+	"repository": "https://github.com/zeluizr/shopify-agents",
+	"license": "MIT",
+	"keywords": ["shopify", "shopify-plus", "liquid", "shopify-functions", "ecommerce", "subagents", "mcp", "latam"],
+	"mcpServers": "./.mcp.json"
+}
