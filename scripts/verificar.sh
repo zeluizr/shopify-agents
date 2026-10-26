@@ -200,7 +200,7 @@ buscar() {
 	local descripcion="$1" patron="$2"
 	shift 2
 	local hallado
-	hallado=$(grep -rniE "${EXCLUIR[@]}" "$patron" "$@" 2>/dev/null || true)
+	hallado=$(grep -rniIE "${EXCLUIR[@]}" "$patron" "$@" 2>/dev/null || true)
 	if [ -n "$hallado" ]; then
 		printf '%s\n' "$hallado" | head -20 | sed 's/^/    /'
 		mal "$descripcion"
